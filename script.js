@@ -1,7 +1,6 @@
 const display = document.getElementById("display");
 const buttons = document.querySelectorAll("button");
-let expression = "";
-/* Created By Yash kumar Banjare... */ 
+let expression = ""; 
 buttons.forEach(button => {
   button.addEventListener("click", () => {
     const value = button.textContent;
@@ -17,7 +16,6 @@ buttons.forEach(button => {
     }
   });
 });
-/* Created By Yash kumar Banjare... */ 
 function updateDisplay() {
   display.value = expression;
 }
@@ -35,7 +33,6 @@ function calculate() {
     expression = "";
   }
 }
-/* Created By Yash kumar Banjare... */ 
 // Keyboard support
 document.addEventListener("keydown", (e) => {
   const allowedKeys = "0123456789+-*/.";
@@ -52,4 +49,3 @@ document.addEventListener("keydown", (e) => {
     updateDisplay();
   }
 });
-/* Created By Yash kumar Banjare... */ 
