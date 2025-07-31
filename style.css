@@ -7,7 +7,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
 }
-/* Created By Yash kumar Banjare... */ 
 .calculator {
   background: linear-gradient(135deg, #1613ae, #38f9d7);
   border-radius: 16px;
@@ -15,7 +14,6 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   width: 320px;
 }
-/* Created By Yash kumar Banjare... */ 
 #display {
   width: 95%;
   height: 60px;
@@ -46,8 +44,7 @@ button {
   color: #333;
   transition: 0.3s ease-in-out;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-/* Created By Yash kumar Banjare... */ 
+} 
 button:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -61,7 +58,6 @@ button:hover {
 .operator:hover {
   box-shadow: 0 6px 12px rgba(253, 29, 29, 0.5);
 }
-/* Created By Yash kumar Banjare... */ 
 .equal {
   grid-column: span 4;
   background: linear-gradient(145deg, #00c9ff, #92fe9d);
